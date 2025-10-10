@@ -1,11 +1,19 @@
 import React from "react";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import Home from "./components/Home";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
     <div>
-      <h1 class="text-5xl font-bold underline flex justify-center items-center">
-        Hello world!
-      </h1>
+      <Navbar />
+
+      <main className="flex flex-col items-center px-4 md:px-8 lg:px-16 pt-24">
+        <Home />
+        <Projects />
+        <Contact />
+      </main>
     </div>
   );
 };
