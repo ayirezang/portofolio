@@ -4,7 +4,7 @@ import travel from "../assets/travel.png";
 
 const projects = [
   {
-    title: "todolist",
+    title: "Todolist",
     description: "A simple todo list application to manage daliy tasks.",
     image: todo,
     technologies: ["React,Tailwind", "Node.js", "Express", "MongoDB"],
@@ -12,7 +12,7 @@ const projects = [
     livelink: "https://todolist-fgyu.vercel.app",
   },
   {
-    title: "travel journal",
+    title: "Travel journal",
     description: "A platform to share travel experiences and photos",
     image: travel,
     technologies: ["React,Tailwind", "Node.js", "Express", "MongoDB"],
@@ -30,17 +30,35 @@ const projectCard = ({ projects }) => {
           {projects.title}
         </h2>
         <p className="text-white text-md md:text-lg">{projects.description}</p>
-        <p className="text-white text-md md:text-lg"></p>
-      </div>
-      <div>
-        {projects.technologies.map((tech, index) => (
-          <span
-            key={index}
-            className="text-sm md:text-md text-white bg-gray-700 px-2 py-1 rounded mr-2"
+
+        <div>
+          {projects.technologies.map((tech, index) => (
+            <span
+              key={index}
+              className="text-sm md:text-md text-white bg-gray-700 px-2 py-1 rounded mr-2"
+            >
+              {tech}
+            </span>
+          ))}
+        </div>
+        <div className="flex gap-4">
+          <a
+            href={projects.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 underline"
           >
-            {tech}
-          </span>
-        ))}
+            GitHub
+          </a>
+          <a
+            href={projects.livelink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 underline"
+          >
+            Live Demo
+          </a>
+        </div>
       </div>
     </div>
   );
