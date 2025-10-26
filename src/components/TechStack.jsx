@@ -10,7 +10,10 @@ import { SiExpress } from "react-icons/si";
 
 const TechStack = () => {
   return (
-    <div className="flex flex-col justify-center items-center  w-full min-h-[70px] gap-4 md:gap-12">
+    <div
+      id="tech"
+      className="flex flex-col justify-center items-center  w-full min-h-[70px] gap-4 md:gap-12"
+    >
       <h1 className="text-3xl md:text-5xl font-light text-white">
         Technologies
       </h1>

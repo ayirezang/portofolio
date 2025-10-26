@@ -20,14 +20,15 @@ const Navbar = () => {
         <a href="#" className="cursor-pointer opacity-70">
           <li>Home</li>
         </a>
-        <a href="#about" className="cursor-pointer opacity-70">
-          <li>About</li>
+        <a href="#tech" className="cursor-pointer opacity-70">
+          <li>Tech</li>
+        </a>
+
+        <a href="#project" className="cursor-pointer opacity-70">
+          <li>Projects</li>
         </a>
         <a href="#contact" className="cursor-pointer opacity-70">
           <li>Contact</li>
-        </a>
-        <a href="#project" className="cursor-pointer opacity-70">
-          <li>Projects</li>
         </a>
       </ul>
       {/**icons socials */}
@@ -59,18 +60,18 @@ const Navbar = () => {
             <a href="#" className="cursor-pointer opacity-70">
               <li>Home</li>
             </a>
-            <a href="#about" className="cursor-pointer opacity-70">
-              <li>About</li>
-            </a>
-            <a href="# contact" className="cursor-pointer opacity-70">
-              <li>Contact</li>
+            <a href="#tech" className="cursor-pointer opacity-70">
+              <li>Tech</li>
             </a>
             <a href="#project" className="cursor-pointer opacity-70">
               <li>Projects</li>
             </a>
+            <a href="#contact" className="cursor-pointer opacity-70">
+              <li>Contact</li>
+            </a>
           </ul>
           {/**MOBILE SOCIAL ICONS */}
-          <ul className="flex flex-wrap  gap-5">
+          {/* <ul className="flex flex-wrap  gap-5">
             <li className="cursor-pointer text-xl hover:text-blue-400 opacity-70">
               <BsLinkedin className="text-white" />
             </li>
@@ -83,7 +84,7 @@ const Navbar = () => {
             <li className="cursor-pointer text-xl hover:text-blue-400 opacity-70">
               <BsGithub />
             </li>
-          </ul>
+          </ul> */}
         </div>
       )}
     </nav>
