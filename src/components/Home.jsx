@@ -21,9 +21,9 @@ const Home = () => {
           <h2 className="text-2xl md:text-3xl">Web developer</h2>
           <p className="md:text-base text-pretty text-sm text-gray-400">
             I'm a full stack developer skilled in React,Tailwind and focused on
-            building clean and scable applications,from front-end design to
-            seamless database integration with MongoDB,I create efficient
-            solutions or dynamic user experience.Let's build something greate
+            building clean and scalable applications,from front-end design to
+            seamless database integration with MongoDB, I create efficient
+            solutions or dynamic user experience.Let's build something great
             together!
           </p>
         </div>
