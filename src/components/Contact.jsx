@@ -17,7 +17,7 @@ const Contact = () => {
         </p>
         <a
           href="mailto:patienceayirezang56@gmail.com"
-          className="text-nowrap rounded-lg border border-indigo-600 bg-black px-5 py-3 text-lg shadow-lg shadow-indigo-700 hover:shadow-xl hover:shadow-indigo-600"
+          className="text-nowrap rounded-lg border text-white border-indigo-600 bg-black px-5 py-3 text-lg shadow-lg shadow-indigo-700 hover:shadow-xl hover:shadow-indigo-600"
         >
           Contact Me
         </a>
