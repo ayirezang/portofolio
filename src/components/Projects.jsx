@@ -1,16 +1,16 @@
 import React from "react";
 
-import corrTodo from "../assets/corrTodo.png";
+import portfolio from "../assets/portfolio.png";
 import ttravel from "../assets/ttravel.png";
 
 const projects = [
   {
-    title: "Todolist",
-    description: "A simple todo list application to manage daliy tasks.",
-    image: corrTodo,
+    title: "Early warning  System",
+    description:
+      "A MERN-stack early warning system that helps identify students at risk of academic failure using performance data.",
+    image: portfolio,
     technologies: ["React,Tailwind", "Node.js", "Express", "MongoDB"],
-    github: "https://github.com/ayirezang/TODOLIST",
-    livelink: "https://todolist-fgyu.vercel.app",
+    github: "https://github.com/ayirezang/early-warning-system",
   },
   {
     title: "Travel journal",
