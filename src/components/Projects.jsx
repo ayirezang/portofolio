@@ -1,6 +1,6 @@
 import React from "react";
 
-import portofolio from "../assets/portofolio.png";
+import portfolio from "../assets/portfolio.png";
 import ttravel from "../assets/ttravel.png";
 import edubridge from "../assets/edubridge.png";
 
@@ -9,7 +9,7 @@ const projects = [
     title: "Early warning  System",
     description:
       "A MERN-stack early warning system that helps identify students at risk of academic failure using performance data.",
-    image: portofolio, // Matches the import name perfectly!
+    image: portfolio, // Matches the import name perfectly!
     technologies: ["React", "Tailwind", "Node.js", "Express", "MongoDB"],
     github: "https://github.com/ayirezang/early-warning-system",
   },
