@@ -1,6 +1,6 @@
 import React from "react";
 
-import portfolio from "../assets/portfolio.png";
+import portofolio from "../assets/portofolio.png";
 import ttravel from "../assets/ttravel.png";
 
 const projects = [
