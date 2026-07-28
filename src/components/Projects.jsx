@@ -1,6 +1,6 @@
 import React from "react";
 
-import earlyWarning from "../assets/early-warning.png";
+import earlyWarning from "../assets/earlyWarning.png";
 import ttravel from "../assets/ttravel.png";
 import edubridge from "../assets/edubridge.png";
 
