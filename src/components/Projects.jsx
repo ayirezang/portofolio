@@ -1,7 +1,7 @@
 import React from "react";
 
 import earlyWarning from "../assets/earlyWarning.png";
-import ttravel from "../assets/ttravel.png";
+import forecast from "../assets/forecast.png";
 import edubridge from "../assets/edubridge.png";
 
 const projects = [
@@ -17,7 +17,7 @@ const projects = [
   {
     title: "Global Edu Bridge",
     description:
-      "An AI-powered scholarship chatbot designed to help students find and apply for global educational opportunities.",
+      "A scholarship chatbot designed to help students find and apply for global educational opportunities.",
     image: edubridge,
     technologies: ["Python", "Streamlit", "OpenRouter API", "LLMS"],
     github: "https://github.com/ayirezang/scholarshipbot4.0",
@@ -25,9 +25,10 @@ const projects = [
   },
 
   {
-    title: "Travel journal",
-    description: "A platform to share travel experiences and photos",
-    image: ttravel,
+    title: "Inventory and  Forecasting  Agent",
+    description:
+      " A forecasting agent that that evaluates sales trends to predict future product inventory needs",
+    image: forecast,
     technologies: ["React", "Tailwind", "Node.js", "Express", "MongoDB"],
     github: "https://github.com/ayirezang/travel-journal",
     livelink: "https://travel-journal-brown-gamma.vercel.app",
