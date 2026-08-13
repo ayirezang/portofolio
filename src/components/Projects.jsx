@@ -1,6 +1,7 @@
 import React from "react";
 
 import earlyWarning from "../assets/earlyWarning.png";
+
 import forecast from "../assets/forecast.png";
 import edubridge from "../assets/edubridge.png";
 
@@ -12,6 +13,7 @@ const projects = [
     image: earlyWarning,
     technologies: ["React", "Tailwind", "Node.js", "Express", "MongoDB"],
     github: "https://github.com/ayirezang/early-warning-system",
+    liveLink: "https://early-warning-system-shk9.onrender.com/",
   },
 
   {
@@ -31,7 +33,6 @@ const projects = [
     image: forecast,
     technologies: ["React", "Tailwind", "Node.js", "Express", "MongoDB"],
     github: "https://github.com/ayirezang/travel-journal",
-    livelink: "https://travel-journal-brown-gamma.vercel.app",
   },
 ];
 
