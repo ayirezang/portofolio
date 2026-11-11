@@ -2,7 +2,6 @@ import React from "react";
 import agriconnect from "../assets/agriconnect.png";
 import earlyWarning from "../assets/earlyWarning.png";
 
-import forecast from "../assets/forecast.png";
 import edubridge from "../assets/edubridge.png";
 
 const projects = [
@@ -14,7 +13,7 @@ const projects = [
     image: agriconnect,
     technologies: ["React", "Tailwind", "Node.js", "Express", "MongoDB"],
     github: "https://github.com/ayirezang/Agriculture-Project",
-    liveLink: "https://agriculture-project-pz8n.vercel.app/",
+    livelink: "https://agriculture-project-pz8n.vercel.app/",
   },
   {
     title: "Early warning  System",
@@ -23,7 +22,7 @@ const projects = [
     image: earlyWarning,
     technologies: ["React", "Tailwind", "Node.js", "Express", "MongoDB"],
     github: "https://github.com/ayirezang/early-warning-system",
-    liveLink: "https://early-warning-system-shk9.onrender.com/",
+    livelink: "https://early-warning-system-shk9.onrender.com/",
   },
 
   {
@@ -34,15 +33,6 @@ const projects = [
     technologies: ["Python", "Streamlit", "OpenRouter API", "LLMS"],
     github: "https://github.com/ayirezang/scholarshipbot4.0",
     livelink: "https://scholarshipbot4-0-2.onrender.com/",
-  },
-
-  {
-    title: "Inventory and  Forecasting  Agent",
-    description:
-      " A forecasting agent that that evaluates sales trends to predict future product inventory needs",
-    image: forecast,
-    technologies: ["React", "Tailwind", "Node.js", "Express", "MongoDB"],
-    github: "https://github.com/ayirezang/travel-journal",
   },
 ];
 
