@@ -1,11 +1,21 @@
 import React from "react";
-
+import agriconnect from "../assets/agriconnect.png";
 import earlyWarning from "../assets/earlyWarning.png";
 
 import forecast from "../assets/forecast.png";
 import edubridge from "../assets/edubridge.png";
 
 const projects = [
+  {
+    title: "AgriConnect AI",
+    description:
+      "an agriculture marketplace with an AI agent that connects farmers to buyers,making it easier to Find thé right match.",
+
+    image: agriconnect,
+    technologies: ["React", "Tailwind", "Node.js", "Express", "MongoDB"],
+    github: "https://github.com/ayirezang/Agriculture-Project",
+    liveLink: "https://agriculture-project-pz8n.vercel.app/",
+  },
   {
     title: "Early warning  System",
     description:
